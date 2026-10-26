@@ -1,0 +1,73 @@
+Phase sweep: 48 steps per clock period; columns = read capture delay 0..3
+step  0    0 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  1    7 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  2   15 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  3   22 deg    FAIL FFFE   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  4   30 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  5   37 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  6   45 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  7   52 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  8   60 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  9   67 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 10   75 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 11   82 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 12   90 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 13   97 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 14  105 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 15  112 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 16  120 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 17  127 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 18  135 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 19  142 deg    FAIL 3DFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step 20  150 deg    FAIL FFFF   FAIL CFFC   FAIL FFFF   FAIL FFFF 
+step 21  157 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 22  165 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 23  172 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 24  180 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 25  187 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 26  195 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 27  202 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 28  210 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 29  217 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 30  225 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 31  232 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 32  240 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 33  247 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 34  255 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 35  262 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 36  270 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 37  277 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 38  285 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 39  292 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 40  300 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 41  307 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 42  315 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 43  322 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 44  330 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 45  337 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 46  345 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 47  352 deg    FAIL FFFF   FAIL 0040   FAIL FFFF   FAIL FFFF 
+Widest window: capture delay 1, steps 21..46 (26 of 48 steps = 54% of the period); centre step 34
+Full 32 MB tests at step 34, capture delay 1:
+  address                      ok
+  address inverted             ok
+  walking-ones                 ok
+  walking-ones inverted        ok
+  checkerboard                 ok
+  checkerboard inverted        ok
+  random                       ok
+  random inverted              ok
+  solid                        ok
+  solid inverted               ok
+  retention 30s (random)       ok
+  soak 1 (random seed 48)      ok
+  soak 2 (random seed 85)      ok
+  soak 3 (random seed 122)     ok
+  soak 4 (random seed 159)     ok
+  soak 5 (random seed 196)     ok
+  soak 6 (random seed 233)     ok
+  soak 7 (random seed 14)      ok
+  soak 8 (random seed 51)      ok
+  soak 9 (random seed 88)      ok
+  soak 10 (random seed 125)    ok
+TOTAL ERRORS: 0

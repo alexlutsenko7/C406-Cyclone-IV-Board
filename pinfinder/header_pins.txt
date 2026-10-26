@@ -1,0 +1,16 @@
+# Balls routed to the two headers (read from the PCB silkscreen).
+# These are excluded from the candidate list. Comments start with '#'.
+# The first two entries are also used as the dummy I/O of the pinscan design,
+# so keep them as ordinary (non-clock) user I/O.
+
+# Top header
+N2 N1 P2 P1 J2 J1 K2 K1 L2 L1 M2 M1 T2 R1 R3 T3
+N3 P3 R4 T4 N5 N6 R5 T5 R6 T6 R7 T7 T8 P6 M6 M7
+P8 N8 M8 P9 N9 M10
+P11 M11 R9 T9
+R10 T10 R11 T11 R12 T12 R13 T13 T14 T15
+
+# Bottom header (config pins at its left end are reserved by Quartus anyway)
+G1 F1 D1 C2 D3 C3 B3 B1 A3 A2 B5 A5 B4 A4 B6 A6
+B8 A8 C6 D5 B7 A7 D8 D6 F8 E8 C8 A9 E9 F9 D9 C9
+B10 A10 B11 A11 B12 A12 B13 A13 E15 E16

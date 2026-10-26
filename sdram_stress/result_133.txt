@@ -1,0 +1,49 @@
+Phase sweep: 24 steps per clock period; columns = read capture delay 0..3
+step  0    0 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  1   15 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  2   30 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  3   45 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  4   60 deg    pass        FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  5   75 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  6   90 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  7  105 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  8  120 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  9  135 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 10  150 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 11  165 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 12  180 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 13  195 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 14  210 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 15  225 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 16  240 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 17  255 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 18  270 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 19  285 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 20  300 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 21  315 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 22  330 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 23  345 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+Widest window: capture delay 1, steps 6..23 (18 of 24 steps = 75% of the period); centre step 15
+Full 32 MB tests at step 15, capture delay 1:
+  address                      ok
+  address inverted             ok
+  walking-ones                 ok
+  walking-ones inverted        ok
+  checkerboard                 ok
+  checkerboard inverted        ok
+  random                       ok
+  random inverted              ok
+  solid                        ok
+  solid inverted               ok
+  retention 30s (random)       ok
+  soak 1 (random seed 48)      ok
+  soak 2 (random seed 85)      ok
+  soak 3 (random seed 122)     ok
+  soak 4 (random seed 159)     ok
+  soak 5 (random seed 196)     ok
+  soak 6 (random seed 233)     ok
+  soak 7 (random seed 14)      ok
+  soak 8 (random seed 51)      ok
+  soak 9 (random seed 88)      ok
+  soak 10 (random seed 125)    ok
+TOTAL ERRORS: 0

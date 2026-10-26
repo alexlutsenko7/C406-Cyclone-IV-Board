@@ -1,0 +1,57 @@
+Phase sweep: 32 steps per clock period; columns = read capture delay 0..3
+step  0    0 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  1   11 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  2   22 deg    FAIL FFFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  3   33 deg    FAIL 3DFF   FAIL FFFF   FAIL FFFF   FAIL FFFF 
+step  4   45 deg    FAIL FFFF   FAIL C3A0   FAIL FFFF   FAIL FFFF 
+step  5   56 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  6   67 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  7   78 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  8   90 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step  9  101 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 10  112 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 11  123 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 12  135 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 13  146 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 14  157 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 15  168 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 16  180 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 17  191 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 18  202 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 19  213 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 20  225 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 21  236 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 22  247 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 23  258 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 24  270 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 25  281 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 26  292 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 27  303 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 28  315 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 29  326 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 30  337 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+step 31  348 deg    FAIL FFFF   pass        FAIL FFFF   FAIL FFFF 
+Widest window: capture delay 1, steps 5..31 (27 of 32 steps = 84% of the period); centre step 18
+Full 32 MB tests at step 18, capture delay 1:
+  address                      ok
+  address inverted             ok
+  walking-ones                 ok
+  walking-ones inverted        ok
+  checkerboard                 ok
+  checkerboard inverted        ok
+  random                       ok
+  random inverted              ok
+  solid                        ok
+  solid inverted               ok
+  retention 30s (random)       ok
+  soak 1 (random seed 48)      ok
+  soak 2 (random seed 85)      ok
+  soak 3 (random seed 122)     ok
+  soak 4 (random seed 159)     ok
+  soak 5 (random seed 196)     ok
+  soak 6 (random seed 233)     ok
+  soak 7 (random seed 14)      ok
+  soak 8 (random seed 51)      ok
+  soak 9 (random seed 88)      ok
+  soak 10 (random seed 125)    ok
+TOTAL ERRORS: 0

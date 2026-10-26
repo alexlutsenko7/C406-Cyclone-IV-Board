@@ -1,0 +1,103 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2025  Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Altera and sold by Altera or its authorized distributors.  Please
+# refer to the Altera Software License Subscription Agreements 
+# on the Quartus Prime software download page.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+# Date created = 14:21:43  October 26, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		sdram_test_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6F17C8
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 25.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:21:43  OCTOBER 26, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "25.1std.0 Lite Edition"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_location_assignment PIN_M16 -to clk_50m
+set_location_assignment PIN_R8 -to key_n
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to key_n
+set_location_assignment PIN_E10 -to led
+set_location_assignment PIN_A14 -to sdr_clk
+set_location_assignment PIN_A15 -to sdr_cke
+set_location_assignment PIN_P15 -to sdr_cs_n
+set_location_assignment PIN_P16 -to sdr_ras_n
+set_location_assignment PIN_N14 -to sdr_cas_n
+set_location_assignment PIN_G15 -to sdr_we_n
+set_location_assignment PIN_R16 -to sdr_ba[0]
+set_location_assignment PIN_R14 -to sdr_ba[1]
+set_location_assignment PIN_G16 -to sdr_dqm[0]
+set_location_assignment PIN_B16 -to sdr_dqm[1]
+set_location_assignment PIN_N12 -to sdr_a[0]
+set_location_assignment PIN_L14 -to sdr_a[1]
+set_location_assignment PIN_L13 -to sdr_a[2]
+set_location_assignment PIN_J13 -to sdr_a[3]
+set_location_assignment PIN_J14 -to sdr_a[4]
+set_location_assignment PIN_F14 -to sdr_a[5]
+set_location_assignment PIN_F13 -to sdr_a[6]
+set_location_assignment PIN_E11 -to sdr_a[7]
+set_location_assignment PIN_D14 -to sdr_a[8]
+set_location_assignment PIN_C11 -to sdr_a[9]
+set_location_assignment PIN_P14 -to sdr_a[10]
+set_location_assignment PIN_D11 -to sdr_a[11]
+set_location_assignment PIN_B14 -to sdr_a[12]
+set_location_assignment PIN_N16 -to sdr_dq[0]
+set_location_assignment PIN_N15 -to sdr_dq[1]
+set_location_assignment PIN_L15 -to sdr_dq[2]
+set_location_assignment PIN_L16 -to sdr_dq[3]
+set_location_assignment PIN_K15 -to sdr_dq[4]
+set_location_assignment PIN_K16 -to sdr_dq[5]
+set_location_assignment PIN_J15 -to sdr_dq[6]
+set_location_assignment PIN_J16 -to sdr_dq[7]
+set_location_assignment PIN_C15 -to sdr_dq[8]
+set_location_assignment PIN_C16 -to sdr_dq[9]
+set_location_assignment PIN_D15 -to sdr_dq[10]
+set_location_assignment PIN_D16 -to sdr_dq[11]
+set_location_assignment PIN_F16 -to sdr_dq[12]
+set_location_assignment PIN_F15 -to sdr_dq[13]
+set_location_assignment PIN_D12 -to sdr_dq[14]
+set_location_assignment PIN_C14 -to sdr_dq[15]
+set_global_assignment -name TOP_LEVEL_ENTITY sdram_test
+set_global_assignment -name VERILOG_FILE sdram_test.v
+set_global_assignment -name SDC_FILE sdram_test.sdc
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_cs_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_ras_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_cas_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_we_n
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_ba[*]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_a[*]
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to sdr_dq[*]
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to sdr_dq[*]
+set_instance_assignment -name FAST_OUTPUT_ENABLE_REGISTER ON -to sdr_dq[*]
